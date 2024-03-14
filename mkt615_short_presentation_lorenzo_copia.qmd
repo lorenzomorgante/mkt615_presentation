@@ -12,7 +12,6 @@ format:
     footer: "Lorenzo Morgante"
 ---
 
-
 ## Agenda
 ::: incremental
 1. What is Quarto
@@ -207,10 +206,10 @@ Quarto
 
 # Integrate Code and Graphs {.smaller}
 
-
-::: {.cell}
-
-```{.r .cell-code}
+```{r}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 4.5
 library(ggplot2)
 
 ggplot(mtcars, aes(x = hp, y = mpg)) +
@@ -218,12 +217,6 @@ ggplot(mtcars, aes(x = hp, y = mpg)) +
   labs(x = "Power", y = "miles per gallon", color = "cilindrate") +
   theme_minimal()
 ```
-
-::: {.cell-output-display}
-![](mkt615_short_presentation_lorenzo_files/figure-revealjs/unnamed-chunk-1-1.png){width=960}
-:::
-:::
-
 ::: footer
 Quarto
 ::: 
@@ -248,27 +241,30 @@ Quarto
 
 In this case, changing the first line of the code, the box is hidden within the syntax of the slide.
 
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 4.5
+library(ggplot2)
 
-::: {.cell}
-::: {.cell-output-display}
-![](mkt615_short_presentation_lorenzo_files/figure-revealjs/unnamed-chunk-2-1.png){width=960}
-:::
-:::
-
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point(aes(color = factor(cyl)), size = 3) +
+  labs(x = "Cavalli Vapore", y = "Miglia per Gallone", color = "Cilindri") +
+  theme_minimal()
+```
 ::: footer
 Quarto
 :::
 ## Absolute position
 
 Position images or other elements at precise locations
-
-::: {.cell}
-
-```{.r .cell-code}
+```{r}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 4.5
+#| 
 #![](https://adesivistore.com/10317-large_default/club-dogo-logo-1-adesivo-prespaziato.jpg){.absolute top="170" left="30" width="200" height="200"}
 ```
-:::
-
 
 ::: {.fragment .fade-in}
 ![](https://adesivistore.com/10317-large_default/club-dogo-logo-1-adesivo-prespaziato.jpg){.absolute top="250" left="30" width="200" height="200"}
@@ -348,5 +344,4 @@ Quarto
 ::: footer
 Lorenzo Morgante
 :::
-
 
