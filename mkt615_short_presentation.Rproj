@@ -1,0 +1,75 @@
+---
+title: "Quarto_pres"
+author: "Lorenzo"
+format: 
+  revealjs:
+    slideNumber: true
+editor: visual
+---
+
+# Introduction
+
+::: incremental
+-   Welcome to the presentation on Quarto functionality
+-   Let's explore how Quarto enhances document creation
+:::
+
+# What is Quarto and What Its Role
+
+-   Explains Quarto's role in document creation
+-   Highlights its capabilities and usage contexts
+
+# Working with Quarto
+
+-   Requirements for Quarto documents
+-   Integration with other tools and platforms
+
+# Creating a Quarto Document
+
+-   Steps to create a Quarto document
+-   Overview of what you get with a Quarto document
+
+# Document Types in Quarto
+
+-   "This slide will later include a tree diagram showing all possible documents you can create with Quarto. Please replace this text with your diagram or image."
+
+# Important Commands in Quarto (1)
+
+-   `quarto create`: Create a new Quarto document
+-   `quarto render`: Render the document to the specified output format
+-   `quarto preview`: Preview the document in a web browser
+
+# Important Commands in Quarto (2)
+
+-   `quarto convert`: Convert documents between different formats
+-   `quarto check`: Check the document for issues before rendering
+-   `quarto update`: Update Quarto to the latest version
+
+# Market Introduction and Competitors
+
+-   When Quarto was introduced to the market
+-   Key competitors: R Markdown, Jupyter Notebooks, etc.
+
+# Advantages and Disadvantages
+
+-   Discusses the pros and cons of using programs like Quarto versus traditional word processors
+
+# Quarto vs Competitors
+
+-   Compares Quarto with other documentation tools like LaTeX and R Markdown
+-   Highlights Quarto's unique features and benefits
+
+# Usage in Academia and Industry
+
+-   How Quarto is utilized in academic settings
+-   Its adoption and application in professional environments
+
+# Conclusions
+
+-   Summary of key points discussed
+-   Encouragement to explore Quarto for document creation
+
+# Thank You!
+
+-   Thank you for attending
+-   Open for questions and discussions
